@@ -1,0 +1,95 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    background:#d28fff ;
+}
+
+header {
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a i {
+    color: white;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the user profile page */
+.user-profile {
+    text-align: center;
+}
+
+.user-avatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.user-details h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.user-details p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.user-orders h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.user-orders ul {
+    list-style-type: none;
+}
+
+.user-orders li {
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

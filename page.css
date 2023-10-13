@@ -1,0 +1,103 @@
+/* Set the background color for the entire page */
+body {
+    background-color: #7eabff80;
+    margin: 0;
+    padding: 0;
+    color: white; /* Set the default text color to white */
+}
+
+/* Styles for the top-aligned navigation menu */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Horizontally align items */
+    align-items: center; /* Vertically align items */
+    background-color: #000000;
+    padding: 20px;
+}
+
+/* Style for the logo */
+.logo {
+    background-color: #000000;
+} 
+
+/* Center-align menu items */
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Display menu items side by side */
+}
+
+/* Styles for individual menu items */
+.menu li {
+    margin-right: 150px; /* Increase the spacing between menu items */
+}
+
+/* Styles for the content area */
+.content {
+    padding: 20px;
+}
+
+/* Styles for the header text */
+.homepage h1 {
+    font-size: 64px;
+    color: white;
+}
+
+/* Styles for the menu item text */
+.menu a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+    /* Remove underline from menu items on hover and active state */
+    text-decoration: none;
+}
+
+/* Remove underline from menu items on hover and active state */
+.menu a:hover,
+.menu a:active {
+    text-decoration: none;
+}
+
+/* Style for the video background */
+.video-container {
+    position: relative;
+}
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Adjust the width to cover the entire viewport */
+    height: auto; /* Automatically adjust the height based on the video's aspect ratio */
+    z-index: -1;
+}
+
+/* Styles for the search bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search-bar input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Additional styles for the search icon (optional) */
+.search-bar button i {
+    font-size: 20px;
+}

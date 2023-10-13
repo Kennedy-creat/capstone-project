@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Include Font Awesome CSS -->
+    <link rel="stylesheet" href="product listings.css"> <!-- Include your CSS file -->
+    <title>Product Listings</title>
+    <style>
+        /* Style the rating stars */
+        .rating {
+            color: #FFD700; /* Yellow color for filled stars */
+            font-size: 24px; /* Adjust the size as needed */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Header with logo and navigation -->
+        <div class="logo">
+            <a href="#"><img src="cartifylogo.png" alt="Your Logo" width="100" height="100"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="page.html"><i class="fas fa-home"></i></a></li>
+                <li><a href="shopping cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                <li><a href="product listings.html"><i class="fas fa-cube"></i></a></li>
+                <li><a href="user profile.html"><i class="fas fa-user-circle"></i></a></li>
+                
+                <!-- Add more navigation links as needed -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Product listings content -->
+        <section class="product-listings">
+            <!-- Product 1 -->
+            <div class="product">
+                <img src="diesel t nibe smile print sweatshirt.jpeg" alt="y2k spice pants">
+                <h2>Diesel T Nibe Smile Print Sweatshirt</h2>
+                <p>Description of Product 1.</p>
+                <p>Price: Kshs1700.00</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i> <!-- Use "far" for empty star -->
+                </div>
+                <button class="add-to-cart" data-product="Product 1" data-price="50.00">Add to Cart</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product">
+                <img src="star chest tie.jpeg" alt="Product 2">
+                <h2>Star Chest Tie </h2>
+                <p>Description of Product 2.</p>
+                <p>Price: Ksh700.00</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i> <!-- Use "far" for empty star -->
+                </div>
+                <button class="add-to-cart" data-product="Product 2" data-price="40.00">Add to Cart</button>
+            </div>
+
+            <!-- Product 3 (Just Cavalli Belt) -->
+            <div class="product">
+                <img src="just cavalli belt.jpeg" alt="Just Cavalli Belt">
+                <h2>Just Cavalli Belt</h2>
+                <p>Description of Product 3.</p>
+                <p>Price: Kshs1500.00</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i> <!-- Use "far" for empty star -->
+                </div>
+                <button class="add-to-cart" data-product="Just Cavalli Belt" data-price="40.00">Add to Cart</button>
+            </div>
+
+            <!-- Product 4 (Street Wear JNCO Jeans) -->
+            <div class="product">
+                <img src="street wear JNCO jeans.jpg" alt="Street Wear JNCO Jeans">
+                <h2>Street Wear JNCO Jeans</h2>
+                <p>Description of Product 4.</p>
+                <p>Price: Kshs2000.00</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i> <!-- Use "far" for empty star -->
+                </div>
+                <button class="add-to-cart" data-product="Street Wear JNCO Jeans" data-price="40.00">Add to Cart</button>
+            </div>
+
+            <!-- Product 5 (Adidas Handball Spezial) -->
+            <div class="product">
+                <img src="adidas HANDBALL SPEZIAL.webp" alt="Adidas Handball Spezial">
+                <h2>Adidas Handball Spezial</h2>
+                <p>Description of Product 5.</p>
+                <p>Price: Kshs3000.00</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i> <!-- Use "far" for empty star -->
+                </div>
+                <button class="add-to-cart" data-product="Adidas Handball Spezial" data-price="40.00">Add to Cart</button>
+            </div>
+
+            <!-- Add more products here -->
+        </section>
+    </main>
+
+    <script src="product listing.js"></script> <!-- Include JavaScript for product listings -->
+</body>
+</html>
